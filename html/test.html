@@ -1,15 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Testisivu</h1>
+  </head>
+  <body>
+    <header>
+      <img src="https://placehold.it/200x100?text=Logo" alt="sivuston logo" />
+      <nav>
+        <ul>
+          <li><a href="#uutiset">uutiset</a></li>
+          <li><a href="#urheilu">urheilu</a></li>
+          <li><a href="#saa">saa</a></li>
+          <li><a href="https://metropolia.fi">metropolia</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>merkityksellisin otsikko h1 ja menee ad 6 numerot</h1>
     <p>Testataan sivun toimivuutta</p>
-
-</body>
-
+    <div class="container">
+      <h1>Sanomalehti</h1>
+      <section id="uutiset">
+        <h2>Uutiset</h2>
+        <article>
+          <h2>Putin on homo &gt; &lt;a&gt; &#2023; &#ouml;</h2>
+          <p>
+            Ei tullut vielä kaapista
+            <b
+              >Lorem ipsums dolor sit amet consectetur, adipisicing elit.
+              Voluptatum animi quisquam itaque sit quas non tenetur eaque
+              delectus, aspernatur voluptates eius porro, quibusdam nisi soluta
+              quasi modi provident fugiat quod.</b
+            >
+            <span style="color: red;">tempora red</span>
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere cum
+            tempora doloribus dolor distinctio libero enim at, qui et officiis
+            architecto quas vel, eaque reiciendis aliquid? Numquam amet nobis
+            hic.
+          </p>
+          <aside>
+            <p>Lisatietoa</p>
+          </aside>
+        </article>
+      </section>
+      <section id="urheilu"></section>
+      <header>
+        <h2>urheilu</h2>
+        <table border=1>
+            <tr>
+                <th>urheilija</th>
+                <th>aika</th>
+            </tr>
+            <tr>
+                <td>elmo</td>
+                <td>2:22,45</td>
+            </tr>
+            <tr>
+                <td rowspan="2">elmo2</td>
+                <td>2:22,45</td>
+            </tr>
+            <tr>
+                <td colspan="2">Jottain</td>
+            </tr>
+        </table>
+      </header>
+      <section id="saa"></section>
+    </div>
+  </body>
 </html>
